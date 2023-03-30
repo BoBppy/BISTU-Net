@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://192.168.211.3/a70.htm'
+url = 'http://10.144.0.3/a70.htm'
 
 data = {
     "DDDDD": 'user_name',
@@ -20,11 +20,11 @@ header = {
     "Content-Length": "152",
     "Conten-Type": "application/x-www-form-urlencoded",
     "Cookie": "cookie",
-    "Host": "192.168.211.3",
-    "Origin": "http://192.168.211.3",
-    "Referer": "http://192.168.211.3/a70.htm",
+    "Host": "10.144.0.3",
+    "Origin": "http://10.144.0.3",
+    "Referer": "http://10.144.0.3/a70.htm",
     "Upgrade-Insecure-Requests": "1",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
 }
 
 reponse = requests.post(url, data, headers=header)

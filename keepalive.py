@@ -3,8 +3,7 @@ import requests
 import os
 import time
 
-URL = 'http://192.168.211.3'
-
+URL = 'http://10.144.0.3'
 
 while (True):
     reponse = requests.get(URL)
